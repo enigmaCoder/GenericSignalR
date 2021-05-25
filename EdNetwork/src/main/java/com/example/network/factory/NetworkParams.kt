@@ -11,4 +11,6 @@ enum class NetworkTypes {
 class NetworkExceptions{
 
     class ConnectionException(message: String): Exception(message)
+
+    class RequestException(message: String): Exception(message)
 }
